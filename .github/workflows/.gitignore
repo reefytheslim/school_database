@@ -1,0 +1,8 @@
+# NEVER commit credentials: this repository is public
+serviceAccountKey.json
+*.json.key
+*-firebase-adminsdk-*.json
+
+node_modules/
+public/
+import_report.txt
