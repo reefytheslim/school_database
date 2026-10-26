@@ -1,0 +1,12 @@
+{
+  "name": "schools-export",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Exports active schools from Firestore to a static JSON file",
+  "scripts": {
+    "export": "node export_schools.js"
+  },
+  "dependencies": {
+    "firebase-admin": "^13.0.0"
+  }
+}
